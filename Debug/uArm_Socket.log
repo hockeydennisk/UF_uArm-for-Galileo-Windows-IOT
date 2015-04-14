@@ -1,0 +1,69 @@
+﻿Build started 2015/4/14 11:32:18.
+     1>Project "C:\Users\Alex\Documents\Visual Studio 2013\Projects\uArm_Socket\uArm_Socket\uArm_Socket.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Alex\documents\visual studio 2013\Projects\uArm_Socket\packages\Microsoft.IoT.NativeWiring.1.0.0\build\native\\include\avr" /I"C:\Users\Alex\documents\visual studio 2013\Projects\uArm_Socket\packages\Microsoft.IoT.NativeWiring.1.0.0\build\native\\include" /I"C:\Users\Alex\documents\visual studio 2013\Projects\uArm_Socket\packages\Microsoft.IoT.SDKFromArduino.1.0.0\build\native\\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D ARDUINO=100 /D INTEL_GALILEO /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /arch:IA32 /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /d2nolock Main.cpp stdafx.cpp uArm_socket.cpp UF_uArm.cpp "C:\Users\Alex\documents\visual studio 2013\Projects\uArm_Socket\packages\Microsoft.IoT.SDKFromArduino.1.0.0\build\native\\Source\IPAddress.cpp" "C:\Users\Alex\documents\visual studio 2013\Projects\uArm_Socket\packages\Microsoft.IoT.SDKFromArduino.1.0.0\build\native\\Source\LiquidCrystal.cpp" "C:\Users\Alex\documents\visual studio 2013\Projects\uArm_Socket\packages\Microsoft.IoT.SDKFromArduino.1.0.0\build\native\\Source\Print.cpp" "C:\Users\Alex\documents\visual studio 2013\Projects\uArm_Socket\packages\Microsoft.IoT.SDKFromArduino.1.0.0\build\native\\Source\Stepper.cpp" "C:\Users\Alex\documents\visual studio 2013\Projects\uArm_Socket\packages\Microsoft.IoT.SDKFromArduino.1.0.0\build\native\\Source\Stream.cpp" "C:\Users\Alex\documents\visual studio 2013\Projects\uArm_Socket\packages\Microsoft.IoT.SDKFromArduino.1.0.0\build\native\\Source\WString.cpp" "C:\Users\Alex\documents\visual studio 2013\Projects\uArm_Socket\packages\Microsoft.IoT.NativeWiring.1.0.0\build\native\\Source\arduino.cpp" "C:\Users\Alex\documents\visual studio 2013\Projects\uArm_Socket\packages\Microsoft.IoT.NativeWiring.1.0.0\build\native\\Source\CY8C9540ASupport.cpp" "C:\Users\Alex\documents\visual studio 2013\Projects\uArm_Socket\packages\Microsoft.IoT.NativeWiring.1.0.0\build\native\\Source\DmapSupport.cpp" "C:\Users\Alex\documents\visual studio 2013\Projects\uArm_Socket\packages\Microsoft.IoT.NativeWiring.1.0.0\build\native\\Source\eeprom.cpp" "C:\Users\Alex\documents\visual studio 2013\Projects\uArm_Socket\packages\Microsoft.IoT.NativeWiring.1.0.0\build\native\\Source\GalileoPins.cpp" "C:\Users\Alex\documents\visual studio 2013\Projects\uArm_Socket\packages\Microsoft.IoT.NativeWiring.1.0.0\build\native\\Source\GpioController.cpp" "C:\Users\Alex\documents\visual studio 2013\Projects\uArm_Socket\packages\Microsoft.IoT.NativeWiring.1.0.0\build\native\\Source\HardwareSerial.cpp" "C:\Users\Alex\documents\visual studio 2013\Projects\uArm_Socket\packages\Microsoft.IoT.NativeWiring.1.0.0\build\native\\Source\I2cController.cpp" "C:\Users\Alex\documents\visual studio 2013\Projects\uArm_Socket\packages\Microsoft.IoT.NativeWiring.1.0.0\build\native\\Source\NetworkSerial.cpp" "C:\Users\Alex\documents\visual studio 2013\Projects\uArm_Socket\packages\Microsoft.IoT.NativeWiring.1.0.0\build\native\\Source\PCA9685Support.cpp" "C:\Users\Alex\documents\visual studio 2013\Projects\uArm_Socket\packages\Microsoft.IoT.NativeWiring.1.0.0\build\native\\Source\PCAL9535ASupport.cpp" "C:\Users\Alex\documents\visual studio 2013\Projects\uArm_Socket\packages\Microsoft.IoT.NativeWiring.1.0.0\build\native\\Source\PulseIn.cpp" "C:\Users\Alex\documents\visual studio 2013\Projects\uArm_Socket\packages\Microsoft.IoT.NativeWiring.1.0.0\build\native\\Source\Servo.cpp" "C:\Users\Alex\documents\visual studio 2013\Projects\uArm_Socket\packages\Microsoft.IoT.NativeWiring.1.0.0\build\native\\Source\Spi.cpp" "C:\Users\Alex\documents\visual studio 2013\Projects\uArm_Socket\packages\Microsoft.IoT.NativeWiring.1.0.0\build\native\\Source\SpiController.cpp" "C:\Users\Alex\documents\visual studio 2013\Projects\uArm_Socket\packages\Microsoft.IoT.NativeWiring.1.0.0\build\native\\Source\WInterrupt.cpp"
+         WInterrupt.cpp
+         SpiController.cpp
+         Spi.cpp
+         Servo.cpp
+         PulseIn.cpp
+         PCAL9535ASupport.cpp
+         PCA9685Support.cpp
+         NetworkSerial.cpp
+         I2cController.cpp
+         HardwareSerial.cpp
+         GpioController.cpp
+         GalileoPins.cpp
+         eeprom.cpp
+         DmapSupport.cpp
+         CY8C9540ASupport.cpp
+         arduino.cpp
+         WString.cpp
+         Stream.cpp
+         Stepper.cpp
+         Print.cpp
+         Generating Code...
+         Compiling...
+         LiquidCrystal.cpp
+         IPAddress.cpp
+         UF_uArm.cpp
+     1>c:\users\alex\documents\visual studio 2013\projects\uarm_socket\uarm_socket\uf_uarm.cpp(28): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\alex\documents\visual studio 2013\projects\uarm_socket\uarm_socket\uf_uarm.cpp(29): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\alex\documents\visual studio 2013\projects\uarm_socket\uarm_socket\uf_uarm.cpp(37): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         uArm_socket.cpp
+         stdafx.cpp
+         Main.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Alex\Documents\Visual Studio 2013\Projects\uArm_Socket\Debug\uArm_Socket.exe" /INCREMENTAL /NOLOGO mincore.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Alex\Documents\Visual Studio 2013\Projects\uArm_Socket\Debug\uArm_Socket.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Alex\Documents\Visual Studio 2013\Projects\uArm_Socket\Debug\uArm_Socket.lib" /MACHINE:X86 -d2:-nolock /NODEFAULTLIB:ole32.lib /NODEFAULTLIB:kernel32.lib /NODEFAULTLIB:user32.lib /NODEFAULTLIB:advapi32.lib Debug\Main.obj
+         Debug\stdafx.obj
+         Debug\uArm_socket.obj
+         Debug\UF_uArm.obj
+         Debug\IPAddress.obj
+         Debug\LiquidCrystal.obj
+         Debug\Print.obj
+         Debug\Stepper.obj
+         Debug\Stream.obj
+         Debug\WString.obj
+         Debug\arduino.obj
+         Debug\CY8C9540ASupport.obj
+         Debug\DmapSupport.obj
+         Debug\eeprom.obj
+         Debug\GalileoPins.obj
+         Debug\GpioController.obj
+         Debug\HardwareSerial.obj
+         Debug\I2cController.obj
+         Debug\NetworkSerial.obj
+         Debug\PCA9685Support.obj
+         Debug\PCAL9535ASupport.obj
+         Debug\PulseIn.obj
+         Debug\Servo.obj
+         Debug\Spi.obj
+         Debug\SpiController.obj
+         Debug\WInterrupt.obj
+         uArm_Socket.vcxproj -> C:\Users\Alex\Documents\Visual Studio 2013\Projects\uArm_Socket\Debug\uArm_Socket.exe
+     1>Done Building Project "C:\Users\Alex\Documents\Visual Studio 2013\Projects\uArm_Socket\uArm_Socket\uArm_Socket.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.67
